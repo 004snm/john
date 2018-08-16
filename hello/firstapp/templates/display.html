@@ -1,0 +1,12 @@
+<html>
+	<body>
+		<form action=""method="POST">
+			{%csrf_token%}
+			Employee Name
+			{{form.ename}}<br>
+			Salary
+			{{form.salary}}<br>
+			<button type="submit">Save</button>
+		</form>
+	</body>
+</html>

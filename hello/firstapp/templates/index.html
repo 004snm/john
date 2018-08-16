@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>WEBSITE</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="scripts/index.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="bootstrap.min.css"/>
+<style type="text/css">
+#container h1{
+display:inline;
+}
+#container{
+
+}
+#logo{
+float:left;
+}
+#cleared{
+clear:both;
+}
+body{
+margin-left:100px;
+margin-right:100px;
+background-color:purple;
+
+}
+#beginning{
+overflow:auto;
+
+}
+ #form1{
+  padding:50px;
+  background-color:#74AFAD;
+  width:50%;
+  float:left;
+  }
+
+  
+  #sidebar{
+  background-color:#C1E1A6;
+  padding:0;
+  margin:0;
+  width:200px;
+  min-width:200px;
+  float:right;
+  }
+
+  
+  
+  
+ #sidebar ul{
+  list-style-type:none;
+  background-color:#C1E1A6;
+  padding:0;
+  margin:0;
+  height:100%:
+  width:100%;
+  cursor:pointer;
+  border:3px solid black;
+ }
+ 
+ li{
+     border-bottom: 3px solid black;
+	 text-align:center;
+	 padding-bottom:20px;
+	 padding-top:20px;
+	 text-decoration:none;
+
+	 }
+  
+  li a{
+  
+  text-decoration:none;
+  color:black;
+  
+  }
+  
+  li:last-child {
+    border-bottom: none;
+	
+}
+  a:hover{
+    background-color:#4CAF50;
+	color:white;
+  }
+  
+ #form1 a{
+ color:red;
+ text-decoration:underline;
+ }
+
+  
+ #sidebar{
+ float:right;
+ } 
+  
+  #lastt{
+  width:500px;
+  border: 2px solid red;
+  background-color:#74AFAD;
+  color:white;
+  clear:both;
+  }
+  
+</style>
+  
+  </head>
+<body>
+<div id="container">
+	
+<div class="jumbotron" id="beginning">
+ <img src="resources/emblem.jpg" title="emblem" id="logo"/>
+    <h1>GLOBAL ARCHITECTS</h1>
+  </div>
+  
+  
+ 
+ <!--now i am adding form--> 
+  
+  <div id="secondary">
+  
+  <form id="form1" action="login_beg.php">
+  <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email" name="email">
+  </div>
+  <div class="form-group">
+    <label for="pwd">Password:</label>
+    <input type="password" class="form-control" id="pwd" name="pass">
+  </div>
+  <div class="checkbox">
+    <label><input type="checkbox"> Remember me</label>
+  </div>
+  <button type="submit" class="btn btn-default" name="btn">Register</button>
+  <br/>
+  <br/>
+</form>
+
+
+<div id="sidebar">
+<ul>
+  <li><a class="active" href="#emp">Login</a></li>
+  <li><a href="#news">About</a></li>
+  <li><a href="#contact">Contact Us</a></li>
+</ul>
+
+</div>
+
+
+  </div>
+  
+
+</body>
+	
+
+</html>
